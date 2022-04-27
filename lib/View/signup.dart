@@ -31,7 +31,7 @@ class _SignUpState extends State<SignUp> {
       (emailTextEdittingController.text, passWordTextEdittingController.text)!.then((val) {
       print("${val}");
       Navigator.pushReplacement(context, MaterialPageRoute(
-        builder: (context) => Chatroom()
+        builder: (context) => ChatRoom()
       ));
     });
     }
